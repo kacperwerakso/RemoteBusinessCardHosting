@@ -7,6 +7,31 @@
     scroll-behavior: smooth;
 }
 
+html{
+    overflow-x: hidden;
+  }
+
+h1 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px!important;
+}
+
+p {
+    line-height: 1.5rem!important;
+}
 
 .menu {
     grid-template-columns: 3fr 2fr 7fr 3fr;
@@ -25,6 +50,7 @@
 .mailNumber {
     text-align: start;
     padding: 10px 30px;
+    font-family: 'Montserrat';
 }
 
 .fa-solid.fa-envelope,
@@ -52,6 +78,7 @@
     text-decoration: none;
     color: #1e1d23;
     display: inline-flex;
+    font-family: 'Montserrat';
 }
 
 .menuSectionName {
@@ -60,6 +87,10 @@
 
 .menuBtns {
     text-align: center;
+}
+
+.fullNameJs {
+    font-family: 'Montserrat';
 }
 
 .scrollBtn {
@@ -73,11 +104,16 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     transition: all 0.5s ease;
+    font-family: 'Montserrat';
 }
 
 .scrollBtn:hover {
     cursor: pointer;
     background-color: #d0cccc;
+}
+
+.hr {
+    font-weight: 800;
 }
 
 .aboutMe {
@@ -87,7 +123,6 @@
 }
 
 .aboutMeTitle {
-    font-size: 40px;
     margin-bottom: 12px;
 }
 
@@ -100,8 +135,8 @@
 }
 
 .photoMe {
-    width: 50%;
-    max-width: 1200px;
+    width: 350px;
+    height: 350px;
     height: auto;
     object-fit: cover;
     display: block;
@@ -217,10 +252,11 @@
     font-size: 24px;
     font-weight: 800;
     margin-bottom: 20px;
+    font-family: 'Montserrat';
 }
 
 .toolsTitle1 {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 800;
     margin-bottom: 20px;
     margin-top: 80px;
@@ -252,6 +288,12 @@
     font-size: 25px;
 }
 
+.dotSecond {
+    color: rgb(60, 47, 174);
+    font-size: 25px;
+    margin-right: 5px;
+}
+
 .skills {
     padding: 100px;
     text-align: center;
@@ -260,15 +302,27 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.skillsGrid {
+    text-align: start;
+    margin-left: 10%;
+}
+
+
 
 .skills p {
     margin-bottom: 10px;
 }
 
 .skillsTitle {
-    font-size: 24px;
-    padding-bottom: 20px;
+    font-size: 32px;
+    padding-bottom: 30px;
     font-weight: 700;
+    text-align: center;
+    margin-left: -15%;
+}
+
+.skillsLi {
+    white-space: nowrap;
 }
 
 .coursesContainer {
@@ -276,6 +330,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 30px 100px;
+    
 }
   
 .courses {
@@ -307,7 +362,11 @@
     text-align: center;
     font-size: 40px;
     padding: 20px;
-    
+}
+
+.courseTitle {
+    font-family: 'Montserrat';
+    font-weight: 800;
 }
 
 .lastSection {
@@ -340,7 +399,7 @@
 }
 
 .footer {
-    background-color: rgb(242, 240, 240);
+    background-color: #e9e3e3;
     padding: 20px;
     text-align: center;
     margin-top: 150px;
@@ -370,10 +429,28 @@
     transition: all 0.5s ease;
 }
 
+@media (max-width: 400px) {
+    .skillsTitle {
+        margin-left: 5px;
+    }
+}
 
 @media (max-width: 800px) {
+
+    h1 {
+        font-size: 32px;
+    }
+    
+    h2 {
+        font-size: 28px!important;
+    }
+    
+    h3 {
+        font-size: 24px!important;
+    }
+
     .menu {
-        height: 130px;
+        height: 110px;
         text-align: center;
         display: block;
         position: fixed;
@@ -384,12 +461,26 @@
         justify-content: center;
         align-items: center;
     }
+
     .mailNumber {
         text-align: center;
-        margin-top: 10px;
+        margin-top: 5px;
     }
+
+    .menuSection {
+        font-size: 16px;
+    }
+
+    .fullNameJs {
+        font-size: 18px;
+    }
+
     .menuSectionName {
         margin-top: 10px;
+    }
+
+    .skillsGrid {
+        margin-left: 0;
     }
 
     .scrollBtn {
@@ -397,13 +488,13 @@
     }
 
     .aboutMe {
-        padding: 150px 30px 0px;
+        padding: 80px 30px 0px;
         display: block
     }
 
     .photoMe {
-        width: 80%;
-        max-width: 1200px;
+        width: 250px;
+        height: 250px;
         height: auto;
         object-fit: cover;
         display: block;
@@ -427,6 +518,16 @@
         display: block;
         text-align: center;
         margin: 30px;
+    }
+
+    .skillsLi {
+        text-indent: -24px;
+        margin-left: 5%;
+        white-space: wrap;
+    }
+
+    .skills p {
+        margin-bottom: 5px;
     }
 
     .tools {
@@ -459,10 +560,44 @@
         justify-content: center;
         padding: 80px 30px 10px;
     }
+
+    .lastSection {
+        margin-bottom: -100px;
+    }
+
+    .footer {
+        background-color: #e9e3e3;
+        padding: 20px;
+        text-align: center;
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 1271px) and (max-width: 1350px) {
+
+    .menu {
+        grid-template-columns: 4fr 5fr 18fr 6fr;
+        height: 80px;
+        text-align: center;
+        display: grid;
+        position: fixed;
+        width: 100%;
+        color:#1e1d23;
+        background-color:#e9e3e3;
+        z-index: 99;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .fullNameJs {
+        font-size: 20px;
+    }
 }
 
 
-@media (min-width: 801px) and (max-width: 1240px) {
+@media (min-width: 801px) and (max-width: 1270px) {
+
     .menu {
         grid-template-columns: 4fr 5fr 1fr 5fr;
         height: 80px;
@@ -476,6 +611,7 @@
         justify-content: center;
         align-items: center;
     }
+
     .mailNumber {
         text-align: center;
     }
@@ -494,12 +630,13 @@
     }
 
     .photoMe {
-        width: 70%;
-        max-width: 1200px;
+        width: 350px;
+        height: 350px;
         height: auto;
         object-fit: cover;
         display: block;
         margin: 0 auto; 
+        margin-top: 50px;
     }
 
     .projectContainer {
@@ -544,6 +681,12 @@
         font-size: 16px;
         display: grid;
         grid-template-columns: 2fr 1fr;
+    }
+
+    .skillsLi {
+        text-indent: -24px;
+        margin-left: 5%;
+        white-space: wrap;
     }
 
     .coursesContainer {
