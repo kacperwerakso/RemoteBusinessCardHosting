@@ -601,6 +601,9 @@ p {
 
 @media (min-width: 801px) and (max-width: 1270px) {
 
+    .scrollBtn {
+        display: none!important;
+    }
     .menu {
         grid-template-columns: 4fr 5fr 1fr 5fr;
         height: 80px;
@@ -620,10 +623,6 @@ p {
     }
     .menuSectionName {
         margin-top: 10px;
-    }
-
-    .scrollBtn {
-        display: none!important;
     }
 
     .aboutMe {
