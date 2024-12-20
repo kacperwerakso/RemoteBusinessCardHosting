@@ -592,6 +592,10 @@ p {
     .fullNameJs {
         font-size: 20px;
     }
+
+        .skillsLi {
+        text-indent: -24px;
+        margin-left: 5%;
 }
 
 
