@@ -593,8 +593,8 @@ p {
         font-size: 20px;
     }
 
-        .skillsLi {
-        text-indent: -25px;
+    .skillsLi {
+        text-indent: -24px;
         margin-left: 5%;
     }
 }
