@@ -434,6 +434,11 @@ p {
         margin:0;
         border-radius: 0px;
     }
+
+    .coursesContainer {
+        overflow-x: hidden!important;
+        margin:0;
+    }
 }
 
 @media (max-width: 800px) {
