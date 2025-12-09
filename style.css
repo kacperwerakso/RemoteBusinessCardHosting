@@ -135,8 +135,8 @@ p {
 }
 
 .photoMe {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     height: auto;
     object-fit: cover;
     display: block;
