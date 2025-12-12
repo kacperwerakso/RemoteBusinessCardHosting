@@ -9,7 +9,22 @@
 
 html{
     overflow-x: hidden!important;
-  }
+}
+        
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(233, 227, 227);
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(60, 47, 174) 2px;;
+    border-radius: 50px;
+    border: solid 2px #e9e3e3
+}
 
 h1 {
     font-family: 'Montserrat';
@@ -148,6 +163,7 @@ p {
     background-color: #f2efef;
 }
 
+
 .projectContainer {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
@@ -155,6 +171,17 @@ p {
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
+}
+
+.projectContainer1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    margin-top: 50px; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .programUsedContainer {
@@ -193,6 +220,11 @@ p {
 
 .projectTitle {
     font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.projectTitle1 {
+    font-size: 22px!important;
     margin-bottom: 12px;
 }
 
@@ -514,6 +546,15 @@ p {
         justify-content: center; 
         align-items: center;
     }
+    .projectContainer1 {
+        display: block;
+        margin-top: 50px; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
     .projects {
         padding: 100px 30px;
@@ -650,6 +691,15 @@ p {
         flex-direction:row; 
         justify-content: center; 
         align-items: center;
+    }
+    .projectContainer1 {
+        display: block;
+        margin-top: 50px; 
+        flex-direction:row; 
+        justify-content: center; 
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     .projects {
