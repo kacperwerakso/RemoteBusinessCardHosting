@@ -498,6 +498,7 @@ p {
         z-index: 99;
         justify-content: center;
         align-items: center;
+        margin-top: -5px;
     }
 
     .mailNumber {
@@ -536,7 +537,8 @@ p {
         height: auto;
         object-fit: cover;
         display: block;
-        margin: 0 auto; 
+        margin: 0 auto;
+        margin-top: 30px; 
     }
 
     .projectContainer {
@@ -554,6 +556,16 @@ p {
         align-items: center;
         padding-left: 50px;
         padding-right: 50px;
+    }
+
+    .projectTitle {
+    font-size: 26px!important;
+    margin-bottom: 12px;
+    }
+
+    .projectTitle1 {
+    font-size: 20px!important;
+    margin-bottom: 12px;
     }
 
     .projects {
