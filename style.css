@@ -339,7 +339,10 @@ p {
     margin-left: 10%;
 }
 
-
+.skillsLi {
+        text-indent: -25px;
+        margin-left: 5%;
+    }
 
 .skills p {
     margin-bottom: 10px;
@@ -498,7 +501,7 @@ p {
         z-index: 99;
         justify-content: center;
         align-items: center;
-        margin-top: -5px!important;
+        margin-top: -5px;
     }
 
     .mailNumber {
@@ -580,7 +583,7 @@ p {
     }
 
     .skillsLi {
-        text-indent: -22px;
+        text-indent: -25px;
         margin-left: 5%;
     }
 
@@ -652,7 +655,7 @@ p {
     }
 
     .skillsLi {
-        text-indent: -24px;
+        text-indent: -25px;
         margin-left: 5%;
     }
 }
@@ -751,7 +754,7 @@ p {
     }
 
     .skillsLi {
-        text-indent: -24px;
+        text-indent: -25px;
         margin-left: 5%;
     }
 
