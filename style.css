@@ -270,6 +270,13 @@ p {
     background-color: #d0cccc;
 }
 
+.moreSitiesContainer {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
 .toolsContainer {
     padding: 100px;
     background-color: #1e1d23;
@@ -587,6 +594,10 @@ p {
         display: block;
         text-align: center;
         margin: 30px;
+    }
+
+    .skillsTitle {
+        margin-left: 5px;
     }
 
     .skillsLi {
